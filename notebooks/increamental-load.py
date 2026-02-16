@@ -10,3 +10,4 @@ df_final = df_new.dropDuplicates(["id"])
 
 # Write to Delta
 df_final.write.format("delta").mode("append").save("/mnt/gold/sales")
+# bhai ye me changes check kar raha hu..!
